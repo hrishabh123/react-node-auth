@@ -1,0 +1,27 @@
+{
+  "name": "react-node-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "15.12.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshi008/react-node-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshi008/react-node-auth/issues"
+  },
+  "homepage": "https://github.com/joshi008/react-node-auth#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
