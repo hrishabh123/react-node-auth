@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
     "build": "cd client && npm install && npm run build"
   },
   "repository": {
@@ -22,6 +23,14 @@
   },
   "homepage": "https://github.com/joshi008/react-node-auth#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
