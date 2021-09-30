@@ -6,7 +6,7 @@ function Dashboard() {
 
   function handleLogout() {
     localStorage.removeItem("token");
-    history.push("/");
+    // history.push("/");
   }
 
   return (
@@ -14,7 +14,9 @@ function Dashboard() {
       Dashboard - Limited access to users with credentials.
       <br />
       <br />
-      <button onClick={handleLogout}>Logout</button>
+      <a href="/login">
+        <button onClick={handleLogout}>Logout</button>
+      </a>
     </div>
   );
 }
